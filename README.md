@@ -6,7 +6,7 @@ A quick recreation of a linear regression model to exercise my understanding of 
 Python
 ```
 ## How it works
-For a more in depth description visit the kraggle notebook [here]().
+For a more in depth description visit the kraggle notebook [here](). (Will be updated once the notebook is complete
 
 ## Notes
 Please feel free to use this code for your own use or study in accordance with the liscence.
