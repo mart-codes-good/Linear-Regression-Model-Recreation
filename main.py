@@ -6,7 +6,7 @@ import numpy as np
 X = np.array([1, 2, 3, 4, 5])
 
 # dependant variable (y-axis) what we are trying to predict
-Y = np.array([2, 4, 5, 7, 10])
+Y = np.array([3, 6, 9.2, 12, 15])
 
 # Calculate means 
 x_mean = np.mean(X)
@@ -47,3 +47,22 @@ new_X = 6
 new_pred = beta_0 + beta_1 * new_X
 
 print(f"Prediction for new_X (6) is {new_pred:.2f}")
+
+from sklearn.linear_model import LinearRegression
+
+# Reshape X to a 2D array since sklearn expects at least a 2D array (n_samples, n_features)
+X_2 = X.reshape(-1, 1)
+
+model = LinearRegression()
+model.fit(X_2, Y)
+
+print("Sklearn's LRM:")
+print(f"Slope:     {model.coef_[0]:.2f}")
+print(f"Intercept: {model.intercept_:.2f}")
+print(f"R² Score:  {model.score(X_2, Y):.4f}")
+
+print()
+print("Basic Recreation LRM (v1):")
+print(f"Slope: {beta_1:.2f}")
+print(f"intercept: {beta_0:.2f}")
+print(f"R^2 Score: {r2_score:.4f}")
