@@ -31,7 +31,7 @@ Computing these values using our data, it gives us y = 2x + 0 (or f(x) = 2x), wh
 
 Now we can make predictions. Let's replace x with 6, so that our model returns 12, which accuretely predicts the following y value (since our y plane is the multiples of 2). In reality, Linear Regression works with two or more independent variables, so instead of fitting a line through a 2D plane it fits a hyperplane through multiple dimensions, but the concpet is the same
 
-For a more in depth description visit the kraggle notebook [here](). (Will be updated once the notebook is completed)
+For a more in depth description visit the kraggle notebook [here](https://www.kaggle.com/code/martintej/linear-regression-model-recreation).
 
 ## Notes
 Please feel free to use this code for your own use or study in accordance with the liscence.
