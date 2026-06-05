@@ -1,5 +1,15 @@
 # Linear-Regression-Model-Recreation
-A quick recreation of the linear regression model to improve my understanding of the concept.
+A quick recreation of the linear regression model (LRM) to improve my understanding of the concept.
+
+This notebook/repository is organized into three parts:
+
+* An explanation of how the LRM model works conceptually
+
+* A basic re-creation of the model, compared against scikit-learn’s LRM on the same dataset.
+
+* An improved model based of my initial implementation, compared against both my basic re-creation and the actual model again.
+
+
 
 ## Tech Stack
 ```
